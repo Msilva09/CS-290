@@ -1,0 +1,125 @@
+body{
+background-color: #f7f5f1;
+}
+
+.Title_nav{
+    /* border-width:3px */
+    border-style:solid;
+    border-color:black; 
+    background-color: #DEE6F3;
+}
+
+.headings{
+    padding-left: 30px;
+    background-color: #DEE6F3;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top:30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+  }
+
+p{
+    font: bold 20px Times, serif 
+}
+
+.top_images {
+    width:1250px;
+    height:190px;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom: 130px;
+}
+.first {
+    float:left;
+    width:30%;
+    height:200px;
+}
+
+.second{
+    width:30%;
+    height:160px;
+    margin:auto;
+
+}
+
+.third{
+    float:right;
+    width:30%;
+    height:160px;
+}
+
+
+.bottom_images {
+    width:1250px;
+    height:190px;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom: 40px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow:hidden; 
+    background-color: #DEE6F3;
+    border-style: solid;
+    border-color: black;
+    position:sticky;
+    top: 0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.topnav-left{
+    float: left;
+    padding-left: 20px;
+}
+
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
