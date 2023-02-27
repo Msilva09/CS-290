@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+    <html lang = "en-US">
+
+    <head>
+        <meta name="description" content="Bon Voyage">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <meta name="author" content="Maria Silva Gallardo">
+        <!-- viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!--This is the title of the top bar-->
+        <title>Self-Care by Maria</title>
+        <link rel="icon" href="\Users\silva\OneDrive\Desktop\Mental_Health_header.png">
+        <link rel = "stylesheet" href = "Assignment3.css">
+    </head> 
+
+    <body lan = "en-US">
+        <header>
+            
+        
+        <!--Navigation Bar-->
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li class = "dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Types</a>
+                        <div class = "dropdown-content">
+                            <a href="#Mental Self-care">Mental Self-Care</a>
+                            <a href="#Emotional Self-care">Emotional Self-Care</a>
+                            <a href="#Social Self-care">Social Self-Care</a>
+                            <a href="#Spiritual Self-care">Spiritual Self-Care</a>
+                            <a href="#Practical Self-care">Practical Self-Care</a>
+                        </div>
+                    </li>
+                    <h1>Self-Care by Maria</h1>
+                </ul>
+        </nav>
+
+        </header>
+        
+        
+        <!--Headings -->
+
+        <h2 id = "Home" class = "headings">Self-Care</h2>
+    
+        <p><b>Self-care looks different for everyone whether it looks like going on a walk or reading a book. 
+        It’s important to take care of one oneself to be able to improve mental, emotional and physical health.
+        It can also be hard to find what works for oneself but don’t be afraid to start! If you need a guide this is 
+        the right spot to be :)</b> </p>
+
+        
+        <h2 id = "Physical Self-care" class="headings" class="clear"> Physical Self-Care</h2>
+        <div class = "info">    
+        <h3>"Physical self care involves activities that improve your physical health such as diet and exercise. It also means seeing a doctor when you are sick and taking the time to rest. Caring for your physical health might mean eating extra fruit and veggies to fuel your body, as well as staying hydrated"</h3>
+        <img src = "\Users\silva\OneDrive\CS290_WebDev\CS-290\Images\physical.png" alt = "Physical health picture" width = 375, height = 200>   
+        </div>
+        <button type="button" class="collapsible">For examples press here :)</button>
+        <div class="content">
+            <ol>
+                <li>Eat a healthy meal.</li><br>
+                <li>Engage in exercise.</li><br>
+                <li>Go for a walk.</li><br>
+                <li>Drink water.</li><br>
+                <li>Practice good sleep hygiene </li><br>
+                <li>Have a cup of tea.</li><br>
+                <li>Sit in the sunlight.</li><br>
+                <li>Take a shower or bath.</li><br>
+            </ol>
+        </div>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                content.style.display = "none";
+                } else {
+                content.style.display = "block";
+                }
+            });
+            }
+        </script>
+
+        <h2  id = "Emotional Self-care" class = "headings"> Emotional Self-Care</h2>
+        <div class = "info">
+        <h3>"What emotional self-care means is to become aware of, and identify, what you are feeling, and then allow yourself to lean into the feelings in a way that honors yourself and your emotions. We can try to ignore, deny, and suppress our emotions, but eventually they come out, one way or another"</h3>
+        <img src="\Users\silva\OneDrive\CS290_WebDev\CS-290\Images\emotional_image.png" alt = "Emotional health picture" width = 375, height = 200>
+        </div>
+         
+        <h2 id = "Mental Self-care" class = "headings"> Mental Self-Care</h2>
+        <div class = "info"> 
+        <h3>"Self-care means taking the time to do things that help you live well and improve both your physical health and mental health. When it comes to your mental health, self-care can help you manage stress, lower your risk of illness, and increase your energy."</h3>
+        <img src="\Users\silva\OneDrive\CS290_WebDev\CS-290\Images\Mental_Health_header.png" alt = "Mental health picture" width = 375, height = 200>
+        </div>
+
+        <h2 id = "Social Self-care" class = "headings"> Social Self-Care</h2>
+        <div class = "info"> 
+        <h3>"The act of taking care of one's own wellbeing through maintaining positive social relationships and by establishing meaningful connections and developing one's social identity."</h3>
+        <img src="\Users\silva\OneDrive\CS290_WebDev\CS-290\Images\instagram-self-photo-concept-with-people-liking_52683-23441.webp" alt = "Mental health picture" width = 375, height = 210>
+        </div>
+
+        <h2 id = "Practical Self-care" class = "headings"> Practical Self-Care</h2>
+        <div class = "info"> 
+        <h3>"Tasks you complete that fulfill core aspects of your life in order to prevent future stressful situations. Examples: Creating a budget, taking professional development classes, organizing your closet, etc."</h3>
+        <img src="\Users\silva\OneDrive\CS290_WebDev\CS-290\Images\istock-1153820629_converted_original_0.webp" alt = "Mental health picture" width = 375, height = 210>
+        </div>
+ 
+        <h2 id = "Spiritual Self-care" class = "headings"> Spiritual Self-Care</h2>
+        <div class = "info"> 
+        <h3>"Spiritual self-care refers to nourishing our inner being, taking care of the matters of the heart which allows us to say to our God, “Lord, I trust in You”. It begins with acknowledging one's need for the Lord and to recognize the needs of the heart.Nov"</h3>
+        <img src="\Users\silva\OneDrive\CS290_WebDev\CS-290\Images\spiritual.jpg" alt = "Mental health picture" width = 375, height = 210>
+        </div>
+    
+    </body>
